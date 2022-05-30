@@ -56,7 +56,8 @@ void	ft_free_game(t_game *game)
 				free(*game->gnln);
 			free(game->gnln);
 		}
-		free_all_raycast(game);
+		if (game->raycast != NULL)
+			free_all_raycast(game);
 		ft_bzero(game, sizeof(t_game));
 		free(game);
 	}

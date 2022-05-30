@@ -110,6 +110,7 @@ int	main(int argc, char *argv[])
 	game->high = ft_arrlen(game->map);
 	ft_check_map(game);
 	ft_cub(game);
+	sleep(100);
 	ft_free_game(game);
 	exit(EXIT_SUCCESS);
 }

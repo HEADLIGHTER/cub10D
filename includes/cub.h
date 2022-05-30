@@ -20,8 +20,8 @@
 # define ESC 53
 # define AR_LEFT 123
 # define AR_RIGHT 124
-# define SCREEN_WIDTH 1280
-# define SCREEN_HEIGHT 720
+# define SCREEN_WIDTH 800
+# define SCREEN_HEIGHT 800
 # define TEXTURE_WIDTH 64
 # define TEXTURE_HEIGHT 64
 # include <mlx.h>

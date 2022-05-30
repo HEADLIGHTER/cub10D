@@ -82,7 +82,7 @@ int	get_next_line(int fd, char **line)
 		if (fr == -1)
 			return (ft_free_all(&buf, &cache, -1));
 		buf[fr] = '\0';
-		cache = ft_strjoin(cache, buf);
+		cache = ft_strjoin_gnl(cache, buf);
 		if (!cache)
 			return (ft_free_all(&buf, &cache, -1));
 	}
